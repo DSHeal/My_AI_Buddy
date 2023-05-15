@@ -1,0 +1,15 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item-->
+<!--        android:id="@+id/menu_item_navigation_drawer"-->
+<!--        app:showAsAction="always"-->
+<!--        android:title="TODO" />-->
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/gptChatFragment"
+            android:icon="@drawable/ic_baseline_chat_bubble_outline_24"
+            android:title="chat" />
+    </group>
+</menu>

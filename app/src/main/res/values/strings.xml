@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My AI Buddy</string>
+    <string name="navigation_drawer_open">drawer open</string>
+    <string name="navigation_drawer_closed">drawer closed</string>
+</resources>

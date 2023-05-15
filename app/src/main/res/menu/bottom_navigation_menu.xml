@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profileFragment"
+        android:enabled="true"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        app:showAsAction="ifRoom" />
+
+    <!--    <item-->
+    <!--        android:id="@+id/homeFragment"-->
+    <!--        android:enabled="true"-->
+    <!--        android:icon="@drawable/ic_bottom_nav_home"-->
+    <!--        android:title="Home" />-->
+    <item
+        android:id="@+id/gptChatFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_android_24"
+        android:title="Chat"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
